@@ -20,7 +20,7 @@ namespace Giorgi_s_lessons.Class
 
         public static int Binary(int k)
         {
-            int a = k;
+            var a = Pow(2, k);
 
             return a;
         }
