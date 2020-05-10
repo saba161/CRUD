@@ -1,7 +1,4 @@
-﻿using Giorgi_s_lessons.Class;
-using Giorgi_s_lessons.Test;
-using System;
-using static Giorgi_s_lessons.Class.BinaryNumber;
+﻿using static Giorgi_s_lessons.Class.BinaryNumber;
 using static Giorgi_s_lessons.Test.Assert;
 using static System.Console;
 
