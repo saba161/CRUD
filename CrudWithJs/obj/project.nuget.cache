@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5xbSZ4BTC2nt1Oz3PQ8f7484W++nPbz5dOBOW9w0tewxTFiO7Urfrrs+KFtBShcTu12rGmDauXGTQ5BRpTHZ3A==",
+  "dgSpecHash": "QBe7jHnLOl2PTiLRBd/9gNUjeSbFhM/yXBYoP6ng6ud1yKXKxWI0S3IU0eMoz1Q+2sKZu3IAuHWwR0Jvq16uqA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sabak\\source\\repos\\Examples\\CrudWithJs\\CrudWithJs.csproj",
+  "projectFilePath": "C:\\Users\\sabak\\OneDrive\\Рабочий стол\\CRUD\\CrudWithJs\\CrudWithJs.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

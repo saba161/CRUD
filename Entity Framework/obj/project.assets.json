@@ -5231,11 +5231,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sabak\\source\\repos\\Examples\\Entity Framework\\Entity Framework.csproj",
+      "projectUniqueName": "C:\\Users\\sabak\\OneDrive\\Рабочий стол\\CRUD\\Entity Framework\\Entity Framework.csproj",
       "projectName": "Entity Framework",
-      "projectPath": "C:\\Users\\sabak\\source\\repos\\Examples\\Entity Framework\\Entity Framework.csproj",
+      "projectPath": "C:\\Users\\sabak\\OneDrive\\Рабочий стол\\CRUD\\Entity Framework\\Entity Framework.csproj",
       "packagesPath": "C:\\Users\\sabak\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sabak\\source\\repos\\Examples\\Entity Framework\\obj\\",
+      "outputPath": "C:\\Users\\sabak\\OneDrive\\Рабочий стол\\CRUD\\Entity Framework\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

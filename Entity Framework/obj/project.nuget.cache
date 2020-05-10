@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CJM0by6lF+uVZkw97ej12pX0K4seTJ5dYgftrEksRjErqtrsxBJVEKb6sqmrJI2bkmmAvbgQ0GCl9uNzUIzYaQ==",
+  "dgSpecHash": "CVjKM92LDeyciRNy/1U4PPAuo56UcAsZfuS3NLvddVpmuMiFxFKzNogEM2DfnKM0hXNzjkuuhz6GR21pIPe4aw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sabak\\source\\repos\\Examples\\Entity Framework\\Entity Framework.csproj",
+  "projectFilePath": "C:\\Users\\sabak\\OneDrive\\Рабочий стол\\CRUD\\Entity Framework\\Entity Framework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sabak\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\sabak\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

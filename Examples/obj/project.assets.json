@@ -5297,11 +5297,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sabak\\source\\repos\\Examples\\Examples\\Ado.Net.csproj",
+      "projectUniqueName": "C:\\Users\\sabak\\OneDrive\\Рабочий стол\\CRUD\\Examples\\Ado.Net.csproj",
       "projectName": "Ado.Net",
-      "projectPath": "C:\\Users\\sabak\\source\\repos\\Examples\\Examples\\Ado.Net.csproj",
+      "projectPath": "C:\\Users\\sabak\\OneDrive\\Рабочий стол\\CRUD\\Examples\\Ado.Net.csproj",
       "packagesPath": "C:\\Users\\sabak\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sabak\\source\\repos\\Examples\\Examples\\obj\\",
+      "outputPath": "C:\\Users\\sabak\\OneDrive\\Рабочий стол\\CRUD\\Examples\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5320,8 +5320,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\sabak\\source\\repos\\Examples\\Entity Framework\\Entity Framework.csproj": {
-              "projectPath": "C:\\Users\\sabak\\source\\repos\\Examples\\Entity Framework\\Entity Framework.csproj"
+            "C:\\Users\\sabak\\OneDrive\\Рабочий стол\\CRUD\\Entity Framework\\Entity Framework.csproj": {
+              "projectPath": "C:\\Users\\sabak\\OneDrive\\Рабочий стол\\CRUD\\Entity Framework\\Entity Framework.csproj"
             }
           }
         }
