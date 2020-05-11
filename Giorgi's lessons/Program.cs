@@ -9,6 +9,7 @@ namespace Giorgi_s_lessons
         static void Main(string[] args)
         {
             AreEqual(1, Binary(0));
+            AreEqual(0, Binary(1));
             AreEqual(4, Binary(2));
             AreEqual(8, Binary(3));
             AreEqual(16, Binary(4));
@@ -16,7 +17,9 @@ namespace Giorgi_s_lessons
             AreEqual(64, Binary(6));
             AreEqual(128, Binary(7));
             AreEqual(256, Binary(8));
-            AreEqual(512, Binary(9));
+            AreEqual(512, Binary(9)); 
+            AreEqual(1024, Binary(10)); 
+            AreEqual(524288, Binary(19));
         }
     }
 }

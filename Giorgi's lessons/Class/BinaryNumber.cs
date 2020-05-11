@@ -6,13 +6,13 @@ namespace Giorgi_s_lessons.Class
 {
     public class BinaryNumber
     {
-        public static int Pow(int k, int n)
+        public static int Pow(int k)
         {
             int sum = 1;
 
-            for (int i = 1; i <= n; i++)
+            for (int i = 1; i <= k; i++)
             {
-                sum = sum * k;
+                sum = sum * 2;
             }
 
             return sum;
@@ -20,7 +20,7 @@ namespace Giorgi_s_lessons.Class
 
         public static int Binary(int k)
         {
-            var a = Pow(2, k);
+            var a = Pow(k);
 
             return a;
         }
