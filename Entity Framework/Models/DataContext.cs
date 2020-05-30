@@ -1,4 +1,5 @@
-﻿using Entity_Framework.Models;
+﻿using Entity_Framework.Migrations;
+using Entity_Framework.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -14,5 +15,7 @@ namespace Entity_Framework.Models
         }
 
         public DbSet<Pets> pets { get; set; }
+
+        public DbSet<Owners> owners { get; set; }
     }
 }

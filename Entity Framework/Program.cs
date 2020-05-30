@@ -68,9 +68,12 @@ Sex: {record.Sex}
 Age: {record.Age}");
             }
 
-            if (command == "GetAllRecords")
+            if (command == "GetOwnerById")
             {
+                WriteLine("Enter Id");
+                var id = Int32.Parse(ReadLine());
 
+                var record = new GetOwnerWithPets(id).GetOwnerWithYourPets();
             }
         }
     }

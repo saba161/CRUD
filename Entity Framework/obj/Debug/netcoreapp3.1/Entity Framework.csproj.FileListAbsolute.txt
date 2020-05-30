@@ -100,3 +100,5 @@ C:\Users\sabak\OneDrive\Рабочий стол\CRUD\Entity Framework\obj\Debug\
 C:\Users\sabak\OneDrive\Рабочий стол\CRUD\Entity Framework\obj\Debug\netcoreapp3.1\Entity Framework.dll
 C:\Users\sabak\OneDrive\Рабочий стол\CRUD\Entity Framework\obj\Debug\netcoreapp3.1\Entity Framework.pdb
 C:\Users\sabak\OneDrive\Рабочий стол\CRUD\Entity Framework\obj\Debug\netcoreapp3.1\Entity Framework.genruntimeconfig.cache
+C:\Users\sabak\OneDrive\Рабочий стол\CRUD\Entity Framework\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\sabak\OneDrive\Рабочий стол\CRUD\Entity Framework\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
