@@ -2,19 +2,19 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ExamplesJs.Tasks.TaskSeven
+namespace ExamplesJs.Extentions
 {
-    public static class ImplementFilter
+    public static class ImplementConcatAll
     {
-        public static List<T> Filter<T>(this List<T> list, Func<T, bool> predicate)
+        public static IEnumerable<T> ConcatAll<T>(this IEnumerable<IEnumerable<T>> list)
         {
             List<T> newList = new List<T>();
 
             foreach (var item in list)
             {
-                if (predicate(item))
+                foreach (var item2 in item)
                 {
-                    newList.Add(item);
+                    newList.Add(item2);
                 }
             }
 

@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ExamplesJs.Tasks.TaskFour
+namespace ExamplesJs.Extentions
 {
     public static class ImplementMap
     {
-        public static List<T> Map<T>(this List<T> list, Func<T, T> func)
+        public static IEnumerable<E> Map<T, E>(this IEnumerable<T> list, Func<T, E> func)
         {
-            List<T> newList = new List<T>();
+            List<E> newList = new List<E>();
 
             foreach (var item in list)
             {
