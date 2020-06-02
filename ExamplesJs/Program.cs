@@ -82,26 +82,31 @@ namespace ExamplesJs
             //}
 
             ////Task Eleven
-            var resultTaskEleven = ExecuteTaskEleven.Execute();
+            //var resultTaskEleven = ExecuteTaskEleven.Execute();
 
-            foreach (var item in resultTaskEleven)
-            {
-                WriteLine(item);
-            }
+            //foreach (var item in resultTaskEleven)
+            //{
+            //    WriteLine(item);
+            //}
 
-            //Task Twelve
+            ////Task Twelve
+            //var taskTwelve = ExecuteTaskTwelve.Execute();
 
-            var taskTwelve = ExecuteTaskTwelve.Execute();
+            //foreach (var item in taskTwelve)
+            //{
+            //    WriteLine(item.Height);
+            //}
 
-            foreach(var item in taskTwelve)
-            {
-                foreach (var item2 in item)
-                {
-                    WriteLine(item2.Height);
-                }
-            }
+            //Task Sixstin
 
-            ImplementConcatMap.Chek();
+            WriteLine(ExecuteTaskSixstinReduce.Execute());
+
+            //Test
+            List<int> tin = new List<int> { 4, 2, 3 };
+
+            WriteLine(tin.Reduce((x, y) => x * y) == 24);
+            WriteLine(tin.Reduce((x, y) => x + y) == 9);
+            WriteLine(tin.Reduce((x, y) => x - y) == -1);
         }
     }
 }

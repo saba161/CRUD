@@ -11,12 +11,17 @@ namespace ExamplesJs.Tasks.TaskEleven
     {
         public static IEnumerable<int> Flatten(IEnumerable<VideoForTaskEleven> list)
         {
+            //First Variant
             var result = list.
                 Map(x => x.Videos.
                     Map(x => x.Id))
                 .ConcatAll();
 
-            var result2 = list.Map(x => x.Videos).ConcatMap();
+            //Second Variant
+            var result2 = list.
+                Map(x => x.Videos)
+                .ConcatAll()
+                .Map(x => x.Id);
 
             return result;
         }

@@ -9,7 +9,7 @@ namespace ExamplesJs.Execute
 {
     public class ExecuteTaskTwelve
     {
-        public static IEnumerable<IEnumerable<Boxart>> Execute()
+        public static IEnumerable<Boxart> Execute()
         {
             List<MovieListsForTaskTwelve> list = new List<MovieListsForTaskTwelve>
             {
@@ -105,14 +105,14 @@ namespace ExamplesJs.Execute
                 }
             };
 
-            var video = list.
-                Map(x => x.Videos
-                    .Map(x => x.Boxarts.Filter(x => x.Height == 150 && x.Width == 200)
-                        )
-                    )
-                .ConcatAll();
+            var result = list.
+                Map(x => x.Videos)
+                .ConcatAll()
+                .Map(x => x.Boxarts)
+                .ConcatAll()
+                .Filter(x => x.Height == 200 && x.Width == 200);
 
-            return video;
+            return result;
 
         }
     }
