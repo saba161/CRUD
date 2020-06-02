@@ -116,6 +116,7 @@ namespace ExamplesJs.Extentions
             var s = list.Map(x => x.Videos).ConcatAll();
 
             var r = list.ConcatMap();
+
         }
 
         public static IEnumerable<R> ConcatMap2<T, R>(this IEnumerable<IEnumerable<T>> arr, Func<T, R> mapper)
