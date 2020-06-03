@@ -18,5 +18,16 @@ namespace ExamplesJs.Extentions
 
             return result;
         }
+
+        public static R Reduce<R, T>(this IEnumerable<T> list, R seed, Func<R, T, R> resultSelector)
+        {
+            var result = seed;
+            foreach (var item in list)
+            {
+                result = resultSelector(seed, item);
+            }
+
+            return result;
+        }
     }
 }

@@ -1,15 +1,18 @@
 ﻿using ExamplesJs.Extentions;
+using ExamplesJs.Tasks.TaskEighteen.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ExamplesJs.Tasks.TaskSixsitReduce
+namespace ExamplesJs.Tasks.TaskEighteen
 {
-    public class ReduceLargest
+    public class LargestBoxartReduceAndMap
     {
-        public static int Max(List<int> list)
+        public static long LargestBoxart(List<Boxart> list)
         {
-            return list.Reduce((x, y) =>
+            var result = list.Map((x) => x.Height * x.Width);
+
+            var maxResult = result.Reduce((x, y) => 
             {
                 if (x > y)
                 {
@@ -20,6 +23,8 @@ namespace ExamplesJs.Tasks.TaskSixsitReduce
                     return y;
                 }
             });
+
+            return maxResult;
         }
     }
 }

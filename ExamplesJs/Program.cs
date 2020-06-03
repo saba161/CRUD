@@ -8,6 +8,7 @@ using System.Linq;
 using ExamplesJs.Tasks.TaskEleven.Models;
 using ExamplesJs.Tasks.TaskEleven;
 using ExamplesJs.Extentions;
+using ExamplesJs.Tasks.TaskSixsitReduce;
 
 namespace ExamplesJs
 {
@@ -27,6 +28,8 @@ namespace ExamplesJs
             //    WriteLine($"Id is :{item.Id}, Title is : {item.Title}");
             //}
 
+            //*********************************************************************************************************************************
+
             ////Task Four , Exentention method
             //List<int> list = new List<int> { 1, 2, 3 };
 
@@ -37,6 +40,8 @@ namespace ExamplesJs
             //    WriteLine(item);
             //}
 
+            //*********************************************************************************************************************************
+
             ////Task Five
 
             //var resultTaskFive = ExecuteTaskFive.Execute();
@@ -46,6 +51,8 @@ namespace ExamplesJs
             //    WriteLine($"Id: {item.Item1}, Title: {item.Item2}");
             //}
 
+            //*********************************************************************************************************************************
+
             ////Task Six
             //var taskSeven = ExecuteTaskSix.Execute();
 
@@ -53,6 +60,8 @@ namespace ExamplesJs
             //{
             //    WriteLine($"Id is :{item.Id}, Rating is : {item.Rating}");
             //}
+
+            //*********************************************************************************************************************************
 
             ////Task Seven
             //List<int> filterList = new List<int> { 1, 2, 3, 4, 5, 0 };
@@ -64,6 +73,8 @@ namespace ExamplesJs
             //    WriteLine(item);
             //}
 
+            //*********************************************************************************************************************************
+
             ////Task Nine
             //var resultTaskNine = ExecuteTaskNine.Execute();
 
@@ -71,6 +82,8 @@ namespace ExamplesJs
             //{
             //    WriteLine(item.Id);
             //}
+
+            //*********************************************************************************************************************************
 
             ////Task Ten
 
@@ -81,6 +94,8 @@ namespace ExamplesJs
             //    WriteLine(item);
             //}
 
+            //*********************************************************************************************************************************
+
             ////Task Eleven
             //var resultTaskEleven = ExecuteTaskEleven.Execute();
 
@@ -88,6 +103,8 @@ namespace ExamplesJs
             //{
             //    WriteLine(item);
             //}
+
+            //*********************************************************************************************************************************
 
             ////Task Twelve
             //var taskTwelve = ExecuteTaskTwelve.Execute();
@@ -97,16 +114,32 @@ namespace ExamplesJs
             //    WriteLine(item.Height);
             //}
 
+            //*********************************************************************************************************************************
+
             //Task Sixstin
 
-            WriteLine(ExecuteTaskSixstinReduce.Execute());
+            //WriteLine(ExecuteTaskSixstinReduce.Execute());
 
-            //Test
-            List<int> tin = new List<int> { 4, 2, 3 };
+            ////Test
+            //List<int> tin = new List<int> { 4, 2, 3 };
 
-            WriteLine(tin.Reduce((x, y) => x * y) == 24);
-            WriteLine(tin.Reduce((x, y) => x + y) == 9);
-            WriteLine(tin.Reduce((x, y) => x - y) == -1);
+            //WriteLine(tin.Reduce((x, y) => x * y) == 24);
+            //WriteLine(tin.Reduce((x, y) => x + y) == 9);
+            //WriteLine(tin.Reduce((x, y) => x - y) == -1);
+
+            //*********************************************************************************************************************************
+
+            //Task Eghtin
+            WriteLine(ExecuteTaskEighteen.Execute());
+            
+            //********************************************************************************************************************************
+            
+            //მეორენაირი Reduce
+            var filterWithReduce = ReduceLargest.FilterWithReduce();
+
+            List<int> filtered = new List<int> { 2, 4, 6 };
+
+            WriteLine(filterWithReduce.SequenceEqual(filtered));
         }
     }
 }
